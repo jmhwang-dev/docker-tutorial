@@ -30,3 +30,22 @@ sudo systemctl enbale docke
 `ls`<br>
 `cp`<br>
 `commit`<br>
+
+## 컨테이너 실행
+`docker container run --name apa000ex1 -d -p 8081:80 httpd:2.2`
+
+### 옵션
+`-dit`: 백그라운드에서 표준입력을 열어둔채로 가상 터미널 할당
+
+## 컨테이너 삭제
+`docker container stop apa000ex1`<br>
+`docker container rm apa000ex1`
+
+## 컨테이너 목록 확인
+- `docker ps`: 실행중인 컨테이너 목록
+- `docker ps -a`: 실행중 포함한 모든 컨테이너 목록
+- `docker container ls`와 같은 의미
+
+## 이미지 관련
+- `docker image ls`: 목록확인
+- (해당 컨테이너 종료, 삭제 후) `docker image rm nginx`: 이미지 삭제
