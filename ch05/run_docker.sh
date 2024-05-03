@@ -3,3 +3,6 @@
 
 docker stop apa000ex19
 docker rm apa000ex19
+
+docker image rm
+docker network rm
