@@ -11,10 +11,10 @@ services:
       - 8085:80
     restart: always
     environment:
-      - WORDPRESS_DB_HOST=mysql000ex11
-      - WORDPRESS_DB_NAME=wordpress000db
-      - WORDPRESS_DB_USER=wordpress000kun
-      - WORDPRESS_DB_PASSWORD=wkunpass
+      WORDPRESS_DB_HOST: mysql000ex11
+      WORDPRESS_DB_NAME: wordpress000db
+      WORDPRESS_DB_USER: wordpress000kun
+      WORDPRESS_DB_PASSWORD: wkunpass
 
 ## 위 도커 컴포즈 명령어를 도커 명령어로 풀면 아래와 같다.
 # docker run \
