@@ -1,10 +1,5 @@
 # docker-tutorial
 
-
-## 이미지 관련
-- `docker image ls`: 목록확인
-- (해당 컨테이너 종료, 삭제 후) `docker image rm nginx`: 이미지 삭제
-
 ## 네트워크 생성
 - `docker network create [네트워크이름]`
 

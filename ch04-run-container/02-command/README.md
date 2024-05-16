@@ -15,7 +15,7 @@ docker container 하위커맨드 옵션
 |start|컨테이너 실행|O|-i|
 |stop|컨테이너 정지|O|거의 사용하지 않음|
 |create|도커 이미지로부터 컨테이너 생성|O|--name<br>-e<br>-p<br>-v|
-|run|도커 이미지를 내려받고 컨테이너를 생성 후 실행<br><br>`docker image pull`<br>+ `docker container create`<br>+ `docker container start`|O|--name<br>-e<br>-p<br>-v<br>-d<br>-i<br>-t|
+|run|도커 이미지를 내려받고 컨테이너를 생성 후 실행<br><br>`docker image pull`<br>+ `docker container create`<br>+ `docker container start`|O|--name<br>-e<br>-p<br>-v<br>`-d`<br>-i<br>-t|
 |rm|정시 상태의 컨테이너 삭제|O|-f<br>-v|
 |exec|실행 중인 컨테이너 속에서 프로그램 실행|O|-i<br>-t|
 |ls|컨테이너 목록 출력|*`docker ps`|-a|
