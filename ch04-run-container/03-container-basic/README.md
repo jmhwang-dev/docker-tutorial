@@ -14,7 +14,7 @@ docker run (옵션) 이미지 (인자)
 
 ```docker
 # 표준
-docker container pull + docker container create + docker container start
+docker image pull + docker container create + docker container start
 ```
 
 ```docker
